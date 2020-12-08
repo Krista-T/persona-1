@@ -163,7 +163,11 @@ li {
 .bar2,
 .bar3,
 .bar4,
-.bar5 {
+.bar5,
+.bar6,
+.bar7,
+.bar8
+ {
     display: flex;
     padding: 4px 6px;
     background-color: darkslategrey;
@@ -177,24 +181,35 @@ li {
 
 /* ADAPT HERE BARS */
 .bar .ball {
-    width: 40%;
+    width: 95%;
 }
 
 .bar2 .ball {
-    width: 20%;
-}
-
-.bar3 .ball {
     width: 80%;
 }
 
+.bar3 .ball {
+    width: 96%;
+}
+
 .bar4 .ball {
-    width: 30%;
+    width: 50%;
 }
 
 .bar5 .ball {
+    width: 70%;
+}
+
+.bar6 .ball {
+    width: 85%;
+}
+.bar7 .ball {
+    width: 60%;
+}
+.bar8 .ball {
     width: 90%;
 }
+
 
 .item2 > div,
 .item1 > div:not(.profile),
